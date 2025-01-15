@@ -7,7 +7,7 @@ int main()
   int lowerTemp =70;
 
   printf("What is the current temp: ");
-  scanf("%d \n", &temp);
+  scanf("%d", &temp);
 
   printf("this is the temp you entered %d \n", lowerTemp < temp && temp < upperTemp);
 
